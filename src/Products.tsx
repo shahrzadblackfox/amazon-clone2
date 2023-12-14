@@ -9,7 +9,7 @@ const Products: React.FC<ProductsProps> = () => {
   const [products, setProducts] = useState<Product[]>(productData);
 
   return (
-    <div>
+    <div className="container-fluid">
       <div className="headFilter">
         {" "}
         
@@ -22,11 +22,11 @@ const Products: React.FC<ProductsProps> = () => {
       
       </div>
 
-      <section>
-        <div className="row">
+      <section >
+      
             <div className="head-product">Results</div>
             
-            </div>
+        
 
         <div className="row product-list">
           {products.map((item) => {
