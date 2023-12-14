@@ -5,7 +5,9 @@ const productData: Product[] = [
         category: 'sofa',
         price: '$149',
         img: './images/pro1.jpg',
-        time: 'Nov 12-15'
+        time: 'Nov 12-15',
+        color: "blue",
+        type: "soft"
     },
     {
         id: 2,
@@ -13,7 +15,9 @@ const productData: Product[] = [
         category: 'sofa',
         price: '$179',
         img: './images/pro2.jpg',
-        time: 'Dec 20-27'
+        time: 'Dec 20-27',
+        color: "white",
+        type: "soft"
     },
     {
         id: 3,
@@ -21,7 +25,9 @@ const productData: Product[] = [
         category: 'sofa',
         price: '$249',
         img: './images/pro3.jpg',
-        time: 'Dec 12-20'
+        time: 'Dec 12-20',
+        color: "blue",
+        type: "soft"
 
     },
     {
@@ -30,7 +36,9 @@ const productData: Product[] = [
         category: 'sofa',
         price: '$229',
         img: './images/pro4.jpg',
-        time: 'Dec 21-29'
+        time: 'Dec 21-29',
+        color: "white",
+        type: "wooden"
 
     }
 ];
@@ -42,6 +50,8 @@ export interface Product {
     category: string;
     img: string;
     time: string;
+    color: string;
+    type: string;
   }
   
  
