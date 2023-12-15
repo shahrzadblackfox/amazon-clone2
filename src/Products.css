@@ -56,3 +56,22 @@
   .time {
     color: #888;
   }
+
+.product-filter-section{
+  display: flex;
+  
+}
+.side-filter{
+  padding-left: 20px !important;
+}
+
+.price-list a{
+  font-size: 24px;
+  text-decoration: none;
+  color:black !important;
+  display: flex;
+  flex-direction: column;
+}
+.sort-option{
+  padding-right: 12px !important;
+}
